@@ -1,4 +1,11 @@
-public class Class1
+/* Example of a badly written class 
+   DiscountManager class is responsible for calculating a discount for the customer while they are buying some product in online shop.
+   
+   Give a discount based on what type of customer it is
+   Give a loyalty discount which equals the amount of years the customer has been active, with a maximum of 5
+*/
+
+public class DiscountManager
 {
   public decimal Calculate(decimal amount, int type, int years)
   {
